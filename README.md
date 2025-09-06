@@ -5,6 +5,7 @@ Bu repository SQL ve PostgreSQL öğrenmek isteyenler için kapsamlı roadmap'le
 ## 📚 İçerik
 
 ### 🗄️ [SQL Roadmap](./SQL_README.md)
+
 - Basic SQL Syntax
 - Data Manipulation Language (DML)
 - Data Definition Language (DDL)
@@ -14,6 +15,7 @@ Bu repository SQL ve PostgreSQL öğrenmek isteyenler için kapsamlı roadmap'le
 - Gelişmiş Konular
 
 ### 🐘 [PostgreSQL DBA Roadmap](./PostgreSQL_README.md)
+
 - PostgreSQL Temelleri
 - Kurulum ve Yapılandırma
 - Veritabanı Yönetimi
@@ -28,6 +30,18 @@ Bu repository SQL ve PostgreSQL öğrenmek isteyenler için kapsamlı roadmap'le
 ## 🖼️ Roadmap Görselleri
 
 Her iki rehber de detaylı roadmap görselleri içerir ve konular "Detayı Görüntüle" formatında düzenlenmiştir.
+
+### SQL Komutları Özet Şeması
+
+![SQL Commands](./images/sql-commands.png)
+
+SQL'in temel komut kategorileri:
+
+- **DDL (Data Definition Language)**: Veritabanı yapısını tanımlar (CREATE, DROP, ALTER, TRUNCATE, RENAME)
+- **DML (Data Manipulation Language)**: Veri işlemleri (INSERT, UPDATE, DELETE)
+- **DCL (Data Control Language)**: Erişim kontrolü (GRANT, REVOKE)
+- **TCL (Transaction Control Language)**: İşlem kontrolü (COMMIT, ROLLBACK, SAVE POINT)
+- **DQL (Data Query Language)**: Veri sorgulama (SELECT)
 
 ## 🚀 Nasıl Kullanılır
 
