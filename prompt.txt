@@ -1,0 +1,13 @@
+Ben bir  developerım sql çalışıyorum roadmap'i takip ediyorum.
+
+Sana vereceğim terim hakkında README.md üzerinde bir başlık oluşturarak içindekiler kısmına ekle ve aşağıdaki başlıkları cevaplayarak ekle.
+
+1. Açıklama
+2. Amacı
+3. Özet
+4. Basit Açıklama 
+5. Bu terim neden gerekli?
+6. Örnek 
+7. Ezberleme Tekniği ('Bir çalisma koçu gibi davran.
+Bana konu bilgisini gerçek yasam örnekleriyle ve hafiza hileleriyle ögret.
+Öyle ögret ki bir daha asla unutmayayim.")
