@@ -123,7 +123,24 @@ Matematik dersindeki işlemler gibi. Toplama (+), çıkarma (-), eşittir (=), b
 - Hesaplanmış sütunlar oluşturmak için
 - Koşullu mantık kurmak için
 
-### 6. Örnek
+### 6. PostgreSQL Operatör Öncelik Tablosu
+
+Operatörlerin doğru sırada değerlendirilmesi için öncelik sırası önemlidir:
+
+![PostgreSQL Operator Precedence](./images/postgresql-dba_page-0001.jpg)
+
+Bu tablo, PostgreSQL'de operatörlerin hangi sırayla işleneceğini gösterir. Yüksek öncelikli operatörler önce hesaplanır. Parantez kullanarak bu sırayı değiştirebilirsiniz.
+
+**Önemli Noktalar:**
+
+- `.` (nokta) en yüksek öncelik - tablo/sütun ayırıcı
+- `::` typecast operatörü
+- `[ ]` array element seçimi
+- Aritmetik operatörler: `*`, `/`, `%` > `+`, `-`
+- Karşılaştırma operatörleri: `=`, `>`, `<`, `>=`, `<=`, `<>`
+- Mantıksal operatörler: `NOT` > `AND` > `OR`
+
+### 7. Örnek
 
 ```sql
 -- Arithmetic Operators
@@ -157,7 +174,7 @@ SELECT * FROM calisanlar WHERE telefon IS NOT NULL;
 SELECT * FROM calisanlar WHERE bonus IS NULL;
 ```
 
-### 7. Ezberleme Tekniği
+### 8. Ezberleme Tekniği
 
 **Gerçek Hayat Örneği**: Market alışverişi yaparken karar verme süreci gibi. "Fiyatı 100 TL'den az VE markası Samsung VEYA Apple olan telefonları getir" diyorsunuz.
 
