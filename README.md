@@ -46,7 +46,7 @@ SQL'in temel komut kategorileri:
 ## 🚀 Nasıl Kullanılır
 
 1. İlk olarak [SQL Roadmap](./SQL_README.md) ile temel SQL bilgilerini öğrenin
-2. Ardından [PostgreSQL DBA Roadmap](./PostgreSQL_README.md) ile PostgreSQL uzmanlığına ilerleyin
+2. Ardından [PostgreSQL DBA Roadmap](./PostgreSQL_README.md) ile PostgreSQL ilerleyin.
 3. Her konuyu teorik olarak öğrendikten sonra pratik yapın
 4. Kod örneklerini çalıştırıp test edin
 
