@@ -43,6 +43,17 @@ SQL'in temel komut kategorileri:
 - **TCL (Transaction Control Language)**: İşlem kontrolü (COMMIT, ROLLBACK, SAVE POINT)
 - **DQL (Data Query Language)**: Veri sorgulama (SELECT)
 
+### SQL JOIN Türleri
+
+![SQL Joins](./images/sql-joins.png)
+
+SQL JOIN türleri iki tabloyu nasıl birleştirdiğimizi gösterir:
+
+- **LEFT JOIN**: Sol tablodaki tüm kayıtları alır, sağ tabloda eşleşmeyen kayıtlar için NULL değer döner
+- **RIGHT JOIN**: Sağ tablodaki tüm kayıtları alır, sol tabloda eşleşmeyen kayıtlar için NULL değer döner
+- **INNER JOIN**: İki tabloda da eşleşen kayıtları alır (kesişim)
+- **FULL JOIN**: Her iki tablodaki tüm kayıtları alır, eşleşmeyen yerler NULL olur (birleşim)
+
 ## 🚀 Nasıl Kullanılır
 
 1. İlk olarak [SQL Roadmap](./SQL_README.md) ile temel SQL bilgilerini öğrenin
